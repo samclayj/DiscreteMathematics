@@ -1,0 +1,14 @@
+[trace] 2 ?- dark(X),big(X).
+   Call: (7) dark(_G2234) ? creep
+   Call: (8) black(_G2234) ? creep
+   Exit: (8) black(cat) ? creep
+   Exit: (7) dark(cat) ? creep
+   Call: (7) big(cat) ? creep
+   Fail: (7) big(cat) ? creep
+   Redo: (7) dark(_G2234) ? creep
+   Call: (8) brown(_G2234) ? creep
+   Exit: (8) brown(bear) ? creep
+   Exit: (7) dark(bear) ? creep
+   Call: (7) big(bear) ? creep
+   Exit: (7) big(bear) ? creep
+X = bear.

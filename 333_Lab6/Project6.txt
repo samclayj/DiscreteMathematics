@@ -1,0 +1,18 @@
+DFA //Type. There MUST be a space before "//" on all the lines
+Sam Jentsch- 333 FSM- Project 6  //Title
+0 1	// input alphabet, note such comments are permitted at the end of the line
+s0 s1 s2 s3 s4 // Machine states
+s0	// the initial state
+s1 s4 // final states 
+s0  0  s3  // transitions: input state, input symbol, output state
+s0  1  s1  
+s1  1  s1 
+s1  0  s2 
+s2  0  s3  
+s2  1  s4
+s3  1  s3  
+s3  0  s3
+s4  0  s2
+s4  1  s3
+end 	//required
+
